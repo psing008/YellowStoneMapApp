@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A5834A238A39CB00D5DD84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58349238A39CB00D5DD84 /* AppDelegate.swift */; };
+		17A5834C238A39CB00D5DD84 /* YSMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5834B238A39CB00D5DD84 /* YSMapViewController.swift */; };
+		17A5834F238A39CB00D5DD84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A5834D238A39CB00D5DD84 /* Main.storyboard */; };
+		17A58351238A39CD00D5DD84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A58350238A39CD00D5DD84 /* Assets.xcassets */; };
+		17A58354238A39CD00D5DD84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A58352238A39CD00D5DD84 /* LaunchScreen.storyboard */; };
+		17A5835F238A39CD00D5DD84 /* YellowStoneMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5835E238A39CD00D5DD84 /* YellowStoneMapTests.swift */; };
+		17A5836D238A3A6900D5DD84 /* CampsiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5836C238A3A6900D5DD84 /* CampsiteModel.swift */; };
+		17A5836F238A3A8900D5DD84 /* ParkVisitorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5836E238A3A8900D5DD84 /* ParkVisitorModel.swift */; };
+		17A58373238A3EA900D5DD84 /* campsites.json in Resources */ = {isa = PBXBuildFile; fileRef = 17A58372238A3EA900D5DD84 /* campsites.json */; };
+		17A58376238A546D00D5DD84 /* YSMapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58375238A546D00D5DD84 /* YSMapViewControllerProtocol.swift */; };
+		17A58379238A5D0B00D5DD84 /* YSMapVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58378238A5D0B00D5DD84 /* YSMapVCViewModel.swift */; };
+		17A5837C238A67E400D5DD84 /* YSCampSiteAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5837B238A67E400D5DD84 /* YSCampSiteAnnotation.swift */; };
+		17A5837E238A75C100D5DD84 /* YSBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5837D238A75C100D5DD84 /* YSBoundingBox.swift */; };
+		17A58383238DA8B700D5DD84 /* CampsiteAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58382238DA8B700D5DD84 /* CampsiteAnnotationView.swift */; };
+		17A58387238E025C00D5DD84 /* YSCamperAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58386238E025C00D5DD84 /* YSCamperAnnotation.swift */; };
+		17A58389238E07BD00D5DD84 /* CamperAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58388238E07BD00D5DD84 /* CamperAnnotationView.swift */; };
+		17A5838C238E1F2D00D5DD84 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5838B238E1F2D00D5DD84 /* Utility.swift */; };
+		17A5838F238E4E5000D5DD84 /* YSAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5838E238E4E5000D5DD84 /* YSAppearence.swift */; };
+		17A58395238F0B6100D5DD84 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58394238F0B6100D5DD84 /* ViewControllerExtensions.swift */; };
+		17A58399238F0CE500D5DD84 /* CampsiteAnnotationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A58398238F0CE500D5DD84 /* CampsiteAnnotationContentView.swift */; };
+		17A5839C238F0D1800D5DD84 /* CampsiteCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5839B238F0D1800D5DD84 /* CampsiteCalloutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17A5835B238A39CD00D5DD84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A5833E238A39CB00D5DD84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A58345238A39CB00D5DD84;
+			remoteInfo = YellowStoneMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A58346238A39CB00D5DD84 /* YellowStoneMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowStoneMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A58349238A39CB00D5DD84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A5834B238A39CB00D5DD84 /* YSMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSMapViewController.swift; sourceTree = "<group>"; };
+		17A5834E238A39CB00D5DD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A58350238A39CD00D5DD84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A58353238A39CD00D5DD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A58355238A39CD00D5DD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A5835A238A39CD00D5DD84 /* YellowStoneMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowStoneMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A5835E238A39CD00D5DD84 /* YellowStoneMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowStoneMapTests.swift; sourceTree = "<group>"; };
+		17A58360238A39CD00D5DD84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A5836C238A3A6900D5DD84 /* CampsiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsiteModel.swift; sourceTree = "<group>"; };
+		17A5836E238A3A8900D5DD84 /* ParkVisitorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkVisitorModel.swift; sourceTree = "<group>"; };
+		17A58372238A3EA900D5DD84 /* campsites.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = campsites.json; sourceTree = "<group>"; };
+		17A58375238A546D00D5DD84 /* YSMapViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSMapViewControllerProtocol.swift; sourceTree = "<group>"; };
+		17A58378238A5D0B00D5DD84 /* YSMapVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSMapVCViewModel.swift; sourceTree = "<group>"; };
+		17A5837B238A67E400D5DD84 /* YSCampSiteAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCampSiteAnnotation.swift; sourceTree = "<group>"; };
+		17A5837D238A75C100D5DD84 /* YSBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSBoundingBox.swift; sourceTree = "<group>"; };
+		17A58382238DA8B700D5DD84 /* CampsiteAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsiteAnnotationView.swift; sourceTree = "<group>"; };
+		17A58386238E025C00D5DD84 /* YSCamperAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCamperAnnotation.swift; sourceTree = "<group>"; };
+		17A58388238E07BD00D5DD84 /* CamperAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperAnnotationView.swift; sourceTree = "<group>"; };
+		17A5838B238E1F2D00D5DD84 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		17A5838E238E4E5000D5DD84 /* YSAppearence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSAppearence.swift; sourceTree = "<group>"; };
+		17A58394238F0B6100D5DD84 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		17A58398238F0CE500D5DD84 /* CampsiteAnnotationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsiteAnnotationContentView.swift; sourceTree = "<group>"; };
+		17A5839B238F0D1800D5DD84 /* CampsiteCalloutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsiteCalloutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A58343238A39CB00D5DD84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A58357238A39CD00D5DD84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A5833D238A39CB00D5DD84 = {
+			isa = PBXGroup;
+			children = (
+				17A58348238A39CB00D5DD84 /* YellowStoneMap */,
+				17A5835D238A39CD00D5DD84 /* YellowStoneMapTests */,
+				17A58347238A39CB00D5DD84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17A58347238A39CB00D5DD84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A58346238A39CB00D5DD84 /* YellowStoneMap.app */,
+				17A5835A238A39CD00D5DD84 /* YellowStoneMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A58348238A39CB00D5DD84 /* YellowStoneMap */ = {
+			isa = PBXGroup;
+			children = (
+				17A58397238F0CC000D5DD84 /* Views */,
+				17A5838D238E4E4500D5DD84 /* Appearence */,
+				17A5837F238A81A600D5DD84 /* AppDelegate */,
+				17A5837A238A67C800D5DD84 /* MKAnnotations */,
+				17A58377238A5CD900D5DD84 /* ViewModels */,
+				17A58374238A544A00D5DD84 /* Protocols */,
+				17A58370238A3D8B00D5DD84 /* Data */,
+				17A5836B238A3A4400D5DD84 /* Models */,
+				17A58369238A3A0200D5DD84 /* ViewControllers */,
+				17A5834D238A39CB00D5DD84 /* Main.storyboard */,
+				17A58350238A39CD00D5DD84 /* Assets.xcassets */,
+				17A58352238A39CD00D5DD84 /* LaunchScreen.storyboard */,
+				17A58355238A39CD00D5DD84 /* Info.plist */,
+			);
+			path = YellowStoneMap;
+			sourceTree = "<group>";
+		};
+		17A5835D238A39CD00D5DD84 /* YellowStoneMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A5835E238A39CD00D5DD84 /* YellowStoneMapTests.swift */,
+				17A58360238A39CD00D5DD84 /* Info.plist */,
+			);
+			path = YellowStoneMapTests;
+			sourceTree = "<group>";
+		};
+		17A58369238A3A0200D5DD84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17A5839A238F0CFD00D5DD84 /* CampsiteCalloutViewController */,
+				17A58396238F0B7800D5DD84 /* Extensions */,
+				17A5836A238A3A3300D5DD84 /* YSMapViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17A5836A238A3A3300D5DD84 /* YSMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17A5834B238A39CB00D5DD84 /* YSMapViewController.swift */,
+			);
+			path = YSMapViewController;
+			sourceTree = "<group>";
+		};
+		17A5836B238A3A4400D5DD84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17A5836C238A3A6900D5DD84 /* CampsiteModel.swift */,
+				17A5836E238A3A8900D5DD84 /* ParkVisitorModel.swift */,
+				17A5837D238A75C100D5DD84 /* YSBoundingBox.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17A58370238A3D8B00D5DD84 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				17A58371238A3D9300D5DD84 /* Campsite */,
+				17A5838B238E1F2D00D5DD84 /* Utility.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		17A58371238A3D9300D5DD84 /* Campsite */ = {
+			isa = PBXGroup;
+			children = (
+				17A58372238A3EA900D5DD84 /* campsites.json */,
+			);
+			path = Campsite;
+			sourceTree = "<group>";
+		};
+		17A58374238A544A00D5DD84 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				17A58375238A546D00D5DD84 /* YSMapViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		17A58377238A5CD900D5DD84 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				17A58378238A5D0B00D5DD84 /* YSMapVCViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		17A5837A238A67C800D5DD84 /* MKAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				17A58380238DA89900D5DD84 /* Annotations */,
+			);
+			path = MKAnnotations;
+			sourceTree = "<group>";
+		};
+		17A5837F238A81A600D5DD84 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				17A58349238A39CB00D5DD84 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		17A58380238DA89900D5DD84 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				17A5837B238A67E400D5DD84 /* YSCampSiteAnnotation.swift */,
+				17A58386238E025C00D5DD84 /* YSCamperAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		17A58381238DA8A400D5DD84 /* AnnotationViews */ = {
+			isa = PBXGroup;
+			children = (
+				17A58382238DA8B700D5DD84 /* CampsiteAnnotationView.swift */,
+				17A58388238E07BD00D5DD84 /* CamperAnnotationView.swift */,
+			);
+			path = AnnotationViews;
+			sourceTree = "<group>";
+		};
+		17A5838D238E4E4500D5DD84 /* Appearence */ = {
+			isa = PBXGroup;
+			children = (
+				17A5838E238E4E5000D5DD84 /* YSAppearence.swift */,
+			);
+			path = Appearence;
+			sourceTree = "<group>";
+		};
+		17A58396238F0B7800D5DD84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17A58394238F0B6100D5DD84 /* ViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17A58397238F0CC000D5DD84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17A58381238DA8A400D5DD84 /* AnnotationViews */,
+				17A58398238F0CE500D5DD84 /* CampsiteAnnotationContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17A5839A238F0CFD00D5DD84 /* CampsiteCalloutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17A5839B238F0D1800D5DD84 /* CampsiteCalloutViewController.swift */,
+			);
+			path = CampsiteCalloutViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A58345238A39CB00D5DD84 /* YellowStoneMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A58363238A39CD00D5DD84 /* Build configuration list for PBXNativeTarget "YellowStoneMap" */;
+			buildPhases = (
+				17A58342238A39CB00D5DD84 /* Sources */,
+				17A58343238A39CB00D5DD84 /* Frameworks */,
+				17A58344238A39CB00D5DD84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YellowStoneMap;
+			productName = YellowStoneMap;
+			productReference = 17A58346238A39CB00D5DD84 /* YellowStoneMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17A58359238A39CD00D5DD84 /* YellowStoneMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A58366238A39CD00D5DD84 /* Build configuration list for PBXNativeTarget "YellowStoneMapTests" */;
+			buildPhases = (
+				17A58356238A39CD00D5DD84 /* Sources */,
+				17A58357238A39CD00D5DD84 /* Frameworks */,
+				17A58358238A39CD00D5DD84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A5835C238A39CD00D5DD84 /* PBXTargetDependency */,
+			);
+			name = YellowStoneMapTests;
+			productName = YellowStoneMapTests;
+			productReference = 17A5835A238A39CD00D5DD84 /* YellowStoneMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A5833E238A39CB00D5DD84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Piyush;
+				TargetAttributes = {
+					17A58345238A39CB00D5DD84 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					17A58359238A39CD00D5DD84 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17A58345238A39CB00D5DD84;
+					};
+				};
+			};
+			buildConfigurationList = 17A58341238A39CB00D5DD84 /* Build configuration list for PBXProject "YellowStoneMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A5833D238A39CB00D5DD84;
+			productRefGroup = 17A58347238A39CB00D5DD84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A58345238A39CB00D5DD84 /* YellowStoneMap */,
+				17A58359238A39CD00D5DD84 /* YellowStoneMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A58344238A39CB00D5DD84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A58354238A39CD00D5DD84 /* LaunchScreen.storyboard in Resources */,
+				17A58351238A39CD00D5DD84 /* Assets.xcassets in Resources */,
+				17A5834F238A39CB00D5DD84 /* Main.storyboard in Resources */,
+				17A58373238A3EA900D5DD84 /* campsites.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A58358238A39CD00D5DD84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A58342238A39CB00D5DD84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A5836F238A3A8900D5DD84 /* ParkVisitorModel.swift in Sources */,
+				17A58399238F0CE500D5DD84 /* CampsiteAnnotationContentView.swift in Sources */,
+				17A5837E238A75C100D5DD84 /* YSBoundingBox.swift in Sources */,
+				17A58387238E025C00D5DD84 /* YSCamperAnnotation.swift in Sources */,
+				17A5838F238E4E5000D5DD84 /* YSAppearence.swift in Sources */,
+				17A5839C238F0D1800D5DD84 /* CampsiteCalloutViewController.swift in Sources */,
+				17A58383238DA8B700D5DD84 /* CampsiteAnnotationView.swift in Sources */,
+				17A5834C238A39CB00D5DD84 /* YSMapViewController.swift in Sources */,
+				17A58395238F0B6100D5DD84 /* ViewControllerExtensions.swift in Sources */,
+				17A58379238A5D0B00D5DD84 /* YSMapVCViewModel.swift in Sources */,
+				17A5838C238E1F2D00D5DD84 /* Utility.swift in Sources */,
+				17A58389238E07BD00D5DD84 /* CamperAnnotationView.swift in Sources */,
+				17A5837C238A67E400D5DD84 /* YSCampSiteAnnotation.swift in Sources */,
+				17A5836D238A3A6900D5DD84 /* CampsiteModel.swift in Sources */,
+				17A5834A238A39CB00D5DD84 /* AppDelegate.swift in Sources */,
+				17A58376238A546D00D5DD84 /* YSMapViewControllerProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A58356238A39CD00D5DD84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A5835F238A39CD00D5DD84 /* YellowStoneMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A5835C238A39CD00D5DD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A58345238A39CB00D5DD84 /* YellowStoneMap */;
+			targetProxy = 17A5835B238A39CD00D5DD84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17A5834D238A39CB00D5DD84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A5834E238A39CB00D5DD84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A58352238A39CD00D5DD84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A58353238A39CD00D5DD84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A58361238A39CD00D5DD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A58362238A39CD00D5DD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A58364238A39CD00D5DD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowStoneMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.YellowStoneMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17A58365238A39CD00D5DD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowStoneMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.YellowStoneMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17A58367238A39CD00D5DD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowStoneMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.YellowStoneMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowStoneMap.app/YellowStoneMap";
+			};
+			name = Debug;
+		};
+		17A58368238A39CD00D5DD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YellowStoneMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyush.YellowStoneMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowStoneMap.app/YellowStoneMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A58341238A39CB00D5DD84 /* Build configuration list for PBXProject "YellowStoneMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A58361238A39CD00D5DD84 /* Debug */,
+				17A58362238A39CD00D5DD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A58363238A39CD00D5DD84 /* Build configuration list for PBXNativeTarget "YellowStoneMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A58364238A39CD00D5DD84 /* Debug */,
+				17A58365238A39CD00D5DD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A58366238A39CD00D5DD84 /* Build configuration list for PBXNativeTarget "YellowStoneMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A58367238A39CD00D5DD84 /* Debug */,
+				17A58368238A39CD00D5DD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A5833E238A39CB00D5DD84 /* Project object */;
+}

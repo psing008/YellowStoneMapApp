@@ -1,0 +1,74 @@
+[
+    {
+        "latitude":44.460563,
+        "longitude":-110.828339,
+        "name":"Alfa",
+        "descriptionText":"Quiet and peaceful location with a lot of terrain and nearby horseriding available",
+        "status":1,
+        "identifier":0
+    },
+    {
+        "latitude":44.8900,
+        "longitude":-110.3907,
+        "name":"Bravo",
+        "descriptionText":"Next to the YelloStone Lake, great for overnight camping. Bring your paddle boards, or rent on here on site",
+         "status":1,
+         "identifier":1
+    },
+    {
+        "latitude":44.7379,
+        "longitude":-110.6932,
+        "name":"Charlie",
+        "descriptionText":"Beware: bears found near this area. Also mountain lions have been seen in the area. If you see one, make loud noises",
+         "status":1,
+         "identifier":2
+    },
+    {
+        "latitude":44.6456823,
+        "longitude":110.86120,
+        "name":"Delta",
+        "descriptionText":"Next to the Windy Canyon hiking trail, RV camping close by. Trailers are not allowed",
+        "status":1,
+        "identifier":3
+    },
+    {
+        "latitude":44.404718,
+        "longitude":-110.615416,
+        "name":"Echo",
+        "descriptionText":"Closest campsite from the main entrance, can purchase tickets here. Must purchase 3 day minimum to get cafe tickets",
+         "status":1,
+         "identifier":4
+    },
+    {
+        "latitude":45.632642,
+        "longitude": -110.414508,
+        "name":"Foxtrot",
+        "descriptionText":"Has anyone read the Foxtrot comic book though ?",
+         "status":1,
+         "identifier":5
+    },
+    {
+        "latitude":44.971240,
+        "longitude":-110.385593,
+        "name":"Golf",
+        "descriptionText":"Golfing range included, please call for carts rental availability",
+         "status":1,
+         "identifier":6
+    },
+    {
+        "latitude":44.010014,
+        "longitude":-110.300170,
+        "name":"Hotel",
+        "descriptionText":"This campsite features a romantic getaway package included",
+         "status":1,
+         "identifier":7
+    },
+    {
+        "latitude":44.766304,
+        "longitude":-110.097805,
+        "name":"India",
+        "descriptionText":"See the scenic route while visting this campsite. Closest gas station is 25 miles away",
+        "status":1,
+        "identifier":8
+    }
+]
